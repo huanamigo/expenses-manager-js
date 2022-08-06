@@ -97,6 +97,7 @@ main {
 
 .transaction-name {
   font-size: 18px;
+
   i {
     margin-right: 10px;
   }
@@ -191,8 +192,8 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  color: #fff;
-  background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+  color: var(--second-color);
+  background-color: var(--first-color);
   width: 100%;
   height: 100%;
 
@@ -205,10 +206,11 @@ main {
     margin-bottom: 5px;
     font-size: 26px;
   }
+
   small {
     margin-bottom: 15px;
     font-style: italic;
-    color: #ddd;
+    color: #14161f;
   }
 
   input,
@@ -238,14 +240,16 @@ main {
     margin: 0 30px;
     padding: 15px 40px;
     font-size: 18px;
-    color: #fff;
     border: 1px solid #fff;
     background: none;
     cursor: pointer;
+    color: var(--second-color);
+    border: 1px solid var(--border-color);
     transition: background-color 0.3s;
 
     &:hover {
-      background-color: rgb(25, 27, 51);
+      color: var(--first-color);
+      background-color: var(--second-color);
     }
   }
 }
