@@ -195,7 +195,7 @@ main {
 .add-transaction-panel small {
   margin-bottom: 15px;
   font-style: italic;
-  color: #14161f;
+  color: var(--border-color);
 }
 .add-transaction-panel input,
 .add-transaction-panel select {
